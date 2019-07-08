@@ -153,6 +153,13 @@ GitHub-style Markdown code-blocks with language annotations can be used.
 
 ---
 
+## Docker
+
+ ```
+$ docker build -t pydoc2md:latest .
+$ docker run --rm -v ${PWD}:/app pydoc2md:latest simple mypackage > ./docs.md 
+```
+
 ## Changes
 
 ### v2.0.5 (2018-11-15)
